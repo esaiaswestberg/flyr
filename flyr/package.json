@@ -1,0 +1,19 @@
+{
+  "name": "flyr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "dev": "nodemon -w ./src/ -x tsx ./src/app.ts",
+    "watch-types": "tsc -w --noEmit"
+  },
+  "keywords": [],
+  "author": "Esaias Westberg <esaias@westbergs.se>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "nodemon": "^3.0.1",
+    "tsx": "^4.1.2",
+    "typescript": "^5.2.2"
+  }
+}
