@@ -2,6 +2,7 @@
   "name": "flyr",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "./src/app.js",
   "scripts": {
     "dev": "nodemon -w ./src/ -x tsx ./src/app.ts",
@@ -20,6 +21,7 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "imapflow": "^1.0.147",
+    "slonik": "^37.2.0",
     "zod": "^3.22.4"
   }
 }
