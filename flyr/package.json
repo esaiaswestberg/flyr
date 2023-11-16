@@ -11,6 +11,7 @@
   "author": "Esaias Westberg <esaias@westbergs.se>",
   "license": "MIT",
   "devDependencies": {
+    "@types/imapflow": "^1.0.16",
     "@types/node": "^20.9.0",
     "nodemon": "^3.0.1",
     "tsx": "^4.1.2",
@@ -18,6 +19,7 @@
   },
   "dependencies": {
     "dotenv": "^16.3.1",
+    "imapflow": "^1.0.147",
     "zod": "^3.22.4"
   }
 }
