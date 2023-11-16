@@ -26,4 +26,9 @@ export default abstract class EmailFetch {
     this.username = configuration.auth.user
     this.password = configuration.auth.pass
   }
+
+  /**
+   * Save all messages in all inboxes to the database.
+   */
+  public async fetchAndStoreInboxes() {}
 }
