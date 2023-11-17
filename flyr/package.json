@@ -6,7 +6,8 @@
   "main": "./src/app.js",
   "scripts": {
     "dev": "nodemon -w ./src/ -x tsx ./src/app.ts",
-    "watch-types": "tsc -w --noEmit"
+    "watch-types": "tsc -w --noEmit",
+    "migrate": "tsx ./migrate.ts"
   },
   "keywords": [],
   "author": "Esaias Westberg <esaias@westbergs.se>",
